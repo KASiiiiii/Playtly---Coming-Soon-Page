@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playtly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a href="./index.html" class="header-logo"><img src="./img/Logo.png" alt="Playtly"/></a>
+      <div class="container header-wrap">
+        <a href="./index.html" class="header-logo"
+          ><img src="./img/Logo.png" alt="Playtly"
+        /></a>
         <nav class="header-navigation">
           <ul class="header-list">
             <li class="header-item">
@@ -21,11 +30,176 @@
           </ul>
         </nav>
         <div class="header-action">
-            <button class="header-btn" type="button"><img src="./img/icon-plus.png" alt="plus"></button>
-            <a href="#" class="header-avatar"><img src="./img/avatar.png" alt="User avatar"/></a>
-            <button class="header-btn" type="button"><img src="./img/burger_menu.png" alt="menu"></button>
+          <button class="header-btn" type="button">
+            <img src="./img/icon-plus.png" alt="plus" />
+          </button>
+          <a href="#" class="header-avatar"
+            ><img src="./img/avatar.png" alt="User avatar"
+          /></a>
+          <button class="header-btn" type="button">
+            <img src="./img/burger_menu.png" alt="menu" />
+          </button>
         </div>
       </div>
     </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-badge">Незабаром в Playtly</span>
+
+            <h1 class="hero-title">
+              Створюємо екосистему для вашого спортивного простору. Разом.
+            </h1>
+
+            <p class="hero-text">
+              <span class="hero-hover">Playtly</span> — це більше ніж сервіс
+              бронювання. Ми розробляємо інтелектуальну SaaS-платформу, яка
+              змінить правила гри для власників майданчиків та гравців.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#" class="hero-btn hero-primary">Стати партнером</a>
+              <a href="#" class="hero-btn hero-link">Що таке Playtly?</a>
+            </div>
+
+            <div class="hero-features">
+              <article class="hero-card">
+                <h3>MVP + SEO</h3>
+                <p>індексуємо запити ще до запуску продукту.</p>
+              </article>
+
+              <article class="hero-card">
+                <h3>Verified Partner</h3>
+                <p>Ранній статус і пріоритетне розміщення після релізу.</p>
+              </article>
+
+              <article class="hero-card">
+                <h3>65%</h3>
+                <p>System Loading — прозоро показуємо етап розробки.</p>
+              </article>
+            </div>
+          </div>
+          <img
+            class="hero-img"
+            src="./img/iPhone.png"
+            alt="Мобільний застосунок Playtly"
+          />
+        </div>
+      </section>
+
+      <section class="expertise">
+        <div class="container">
+          <div class="expertise-box">
+            <div class="expertise-top">
+              <h2 class="expertise-title">Ваша експертиза — наш код.</h2>
+              <p class="expertise-text">
+                Ми відкриті до пропозицій та інтеграцій. Допоможіть нам зробити
+                Playtly ідеальним для вашого середовища, і ми віддячимо за цей
+                вклад.
+              </p>
+              <a href="#" class="expertise-btn">Зв’язатися з нами</a>
+            </div>
+
+            <div class="expertise-grid">
+              <article class="expertise-card">
+                <div class="expertise-icon expertise-blue">
+                  <img src="./img/target.png" alt="Вплив на продукт" />
+                </div>
+                <h3 class="expertise-heading">Вплив на продукт</h3>
+                <p class="expertise-description">
+                  Ваші побажання стануть пріоритетними фічами в беклозі
+                  розробки. Ми будуємо Playtly не "для ринку в теорії", а для
+                  реальних операторів спортивних просторів.
+                </p>
+              </article>
+
+              <article class="expertise-card">
+                <div class="expertise-icon expertise-yellow">
+                  <img src="./img/crown.png" alt="Пожиттєві привілеї" />
+                </div>
+                <h3 class="expertise-heading">Пожиттєві привілеї</h3>
+                <p class="expertise-description">
+                  Максимальні знижки на абонплату, спеціальні умови комісії та
+                  зафіксовані стартові тарифи для тих, хто входить до екосистеми
+                  першими.
+                </p>
+              </article>
+
+              <article class="expertise-card">
+                <div class="expertise-icon expertise-green">
+                  <img src="./img/check-fat.png" alt="Ексклюзивний статус" />
+                </div>
+                <h3 class="expertise-heading">Ексклюзивний статус</h3>
+                <p class="expertise-description">
+                  Позначка Verified Partner, пріоритетне розміщення на карті
+                  після запуску та додатковий рівень довіри для гравців, які
+                  шукають перевірені майданчики.
+                </p>
+              </article>
+
+              <article class="expertise-card">
+                <div class="expertise-icon expertise-pink">
+                  <img src="./img/handshake.png" alt="Гарантія лояльності" />
+                </div>
+                <h3 class="expertise-heading">Гарантія лояльності</h3>
+                <p class="expertise-description">
+                  Ми фіксуємо найкращі умови для тих, хто повірив у Playtly на
+                  старті, і формуємо довготривалу партнерську модель замість
+                  короткострокових акцій.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about-box">
+            <div class="about-top">
+              <h2 class="about-title">
+                Що таке <span class="about-accent">Playtly?</span>
+              </h2>
+              <p class="about-text">
+                Playtly — це майбутня платформа для бронювання спортивних залів
+                і майданчиків, пошуку команд, організації матчів та
+                автоматизації спортивного бізнесу. Сторінка вже зараз
+                оптимізована під пошукові запити про оренду футбольного поля,
+                бронювання тенісного корту, автоматизацію фітнес-залу та
+                розвиток спортивного ком’юніті в Україні.
+              </p>
+            </div>
+
+            <div class="about-grid">
+              <article class="about-card">
+                <div class="about-icon about-green">
+                  <img src="./img/person-simple-throw.png" alt="Для гравців" />
+                </div>
+                <h3 class="about-heading">Для гравців</h3>
+                <p class="about-description">
+                  Швидкий пошук спортивних майданчиків, миттєве бронювання,
+                  пошук напарника для спорту, організація баскетбольних
+                  зустрічей і збір команд для регулярних ігор або турнірів.
+                </p>
+              </article>
+
+              <article class="about-card">
+                <div class="about-icon about-blue">
+                  <img src="./img/business.png" alt="Для бізнесу" />
+                </div>
+                <h3 class="about-heading">Для бізнесу</h3>
+                <p class="about-description">
+                  Хмарна CRM для залів, автоматизація оплат, гнучке управління
+                  слотами, маркетинг-інструменти для повернення клієнтів і
+                  детальна аналітика, що підсилює LTV та прибутковість
+                  спортивної локації.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
